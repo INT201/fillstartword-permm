@@ -1,4 +1,4 @@
-const testFn = require('./fillStartWord').default
+const testFn = require('./fillStartWord')
 
 test('output#1', () => {
   expect(testFn('1-2565-', 'Hello World')).toBe('1-2565-Hello World')
